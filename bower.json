@@ -1,0 +1,15 @@
+{
+  "name": "cocktail-test",
+  "homepage": "https://github.com/rodwyn/cocktail-test",
+  "authors": [
+    "Rodwyn <rodwynmoreno@hotmail.com>"
+  ],
+  "description": "ocktail test repository.",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bower": "*",
+    "gulp": "^3.9.1"
+  }
+}

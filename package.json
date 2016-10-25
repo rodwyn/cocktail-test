@@ -1,0 +1,21 @@
+{
+  "name": "cocktail-test",
+  "version": "1.0.0",
+  "description": "Cocktail test repository.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodwyn/cocktail-test.git"
+  },
+  "author": "Rodwyn Moreno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodwyn/cocktail-test/issues"
+  },
+  "homepage": "https://github.com/rodwyn/cocktail-test#readme"
+}
