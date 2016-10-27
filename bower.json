@@ -1,15 +1,15 @@
 {
-  "name": "cocktail-test",
-  "homepage": "https://github.com/rodwyn/cocktail-test",
+  "name": "cocktail test",
+  "description": "Cocktail test page",
+  "main": "index.js",
   "authors": [
-    "Rodwyn <rodwynmoreno@hotmail.com>"
+    "Rodwyn Moreno"
   ],
-  "description": "ocktail test repository.",
-  "main": "",
   "license": "MIT",
+  "homepage": "",
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "bower": "*",
-    "gulp": "^3.9.1"
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "font-awesome": "^4.7.0"
   }
 }
