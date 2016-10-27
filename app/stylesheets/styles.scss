@@ -1,0 +1,300 @@
+.navbar {
+  border-radius: 0;
+  color: $white;
+  padding: 0;
+
+  .nav-information {
+    background-color: $brand-one;
+    padding-bottom: .6rem;
+    padding-top: .6rem;
+  }
+
+  .nav-customers {
+    background-color: $brand-two;
+    padding-bottom: .6rem;
+    padding-top: .6rem;
+
+    .nav-link {
+      color: $brand-one;
+
+      &:hover {
+        color: $white;
+      }
+
+      &:focus {
+        color: $white;
+      }
+    }
+  }
+
+  .nav-link {
+    color: $white;
+
+    &:hover {
+      color: $brand-two;
+    }
+
+    &:focus {
+      color: $brand-two;
+    }
+  }
+
+  .nav-item {
+    font-size: 12px;
+
+    &.info {
+      border-left: $white solid thin;
+      padding-left: 10px;
+    }
+
+    &:first-of-type {
+      padding-left: .5em;
+    }
+  }
+}
+
+.logo-container {
+  padding-bottom: 15px;
+  padding-top: 15px;
+
+  .bank-name {
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 15px;
+    width: 120px;
+  }
+}
+
+.btn-section {
+  box-shadow: 0 3px 3px $rgba-one;
+  width: 100%;
+  z-index: 1;
+
+  .btn {
+    background-color: $bg-one;
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: bold;
+    height: 70px;
+    text-transform: uppercase;
+    width: 20%;
+  }
+}
+
+.breadcrumb {
+  background-color: $bg-one;
+  border-radius: 0;
+  font-size: 12px;
+
+  .breadcrumb-item {
+    a {
+      color: $font-one;
+    }
+
+    &.active {
+      color: $brand-one;
+    }
+  }
+}
+
+.banner-main {
+  background-image: url('/images/main-img.JPG');
+  background-position: -100px 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 40px 40px 40px 0;
+
+  .banner-data {
+    border-left: $brand-two solid 8px;
+    color: $brand-one;
+    padding-left: 15px;
+  }
+
+  .banner-title {
+    font-size: 35px;
+
+  }
+
+  .banner-subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  .banner-info {
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+  }
+
+  .request-button {
+    border: $brand-one solid thin;
+    color: $brand-one;
+  }
+}
+
+.nav-options {
+  background-color: $bg-two;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: .75rem;
+
+  .nav-link {
+    color: $brand-one;
+    padding-bottom: .25rem;
+
+    &.active {
+      border-bottom: solid 3px $brand-two;
+    }
+  }
+}
+
+.credit-data {
+  border-bottom: 1px solid $bg-two;
+  padding-top: 30px;
+
+  .credit-characteristics {
+    li {
+      font-size: 14px;
+      margin-bottom: 30px;
+
+      &:before {
+        color: $brand-two;
+        content: "• ";
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .credit-purpose-title {
+    font-size: 12px;
+  }
+
+  .credit-purpose-list {
+    li {
+      font-size: 12px;
+      margin-bottom: 10px;
+
+      &:before {
+        color: $brand-two;
+        content: "• ";
+        font-size: .5rem;
+      }
+    }
+  }
+}
+
+.credit-items-container {
+  border-bottom: 1px solid $bg-two;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+  .credit-item-title {
+    font-size: 12px;
+  }
+
+  .credit-item-data {
+    font-size: 18px;
+  }
+}
+
+.credit-extra-data {
+  border-bottom: 1px solid $bg-two;
+  font-size: 12px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+  .credit-extra-data-title {
+    margin-bottom: 40px;
+  }
+
+  .credit-extra-data-list {
+    li {
+      margin-bottom: 30px;
+
+      &:before {
+        color: $font-one;
+        content: "• ";
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.credit-links {
+  padding-bottom: 60px;
+  padding-top: 35px;
+
+  .btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .btn-secondary {
+    background-color: $btn-one;
+    border-radius: 0;
+    color: $white;
+  }
+
+  .btn-link {
+    color: $btn-one;
+    margin-top: 25px;
+  }
+}
+
+.other-products {
+  background-color: $bg-two;
+  padding: 30px 15px;
+
+  .other-products-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .other-product-title {
+    font-size: 20px;
+    color: $white;
+    text-transform: uppercase;
+  }
+  
+  .other-product-subtitle {
+    font-size: 30px;
+    color: $white;
+  }
+
+  .btn-link {
+    font-size: 12px;
+    color: $white;
+  }
+
+  .other-product-one {
+    background-color: $bg-four;
+    background-image: url('/images/other-product-one.png');
+    background-position: -50px 0;
+    background-repeat: no-repeat;
+    background-size: 220px;
+    height: 220px;
+    padding-top: 60px;
+  }
+
+  .other-product-two {
+    background-color: $bg-five;
+    background-image: url('/images/other-product-two.png');
+    background-position: -125px 10px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    height: 220px;
+    padding-top: 45px;
+  }
+
+  .other-product-three {
+    background-color: $bg-six;
+    background-image: url('/images/other-product-three.png');
+    background-position: -35px 5px;
+    background-repeat: no-repeat;
+    background-size: 220px;
+    height: 220px;
+    padding-top: 45px;
+  }
+}

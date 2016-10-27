@@ -1,47 +1,308 @@
-<!doctype	html>
+<!doctype html>
 <html>
-	<head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-		<!--build:css	css/style.min.css-->
-		<!--bower:css-->
-		<!--endbower-->
-		<!--inject:css-->
-		<!--<link rel="stylesheet" href="stylesheets/main.css">-->
-    <!--<link rel="stylesheets" href="/bower_components/bootstrap/dist/css/bootstrap.min.cssx"-->
-		<!--endinject-->
-		<!--endbuild-->
-	</head>
-	<body>
-    <nav class="navbar navbar-light bg-faded">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <ul class="nav navbar-nav">
-    <li class="nav-item active">
-      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="http://example.com" id="supportedContentDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-      <div class="dropdown-menu" aria-labelledby="supportedContentDropdown">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
-    </li>
-  </ul>
-  <form class="form-inline float-xs-right">
-    <input class="form-control" type="text" placeholder="Search">
-    <button class="btn btn-outline-success" type="submit">Search</button>
-  </form>
-</nav>
-		<div	class="container">
-			<div	class="row">
+<head>
+	<base  href="/">
+	<!--build:css  css/style.min.css-->
+	<!--bower:css-->
+	<!--endbower-->
+	<!--inject:css-->
+	<link rel="stylesheet" href="stylesheets/main.css">
+	<link rel="stylesheet" href="stylesheets/bootstrap.scss">
+	<!--endinject-->
+	<!--endbuild-->
+</head>
+<body class="container-fluid">
+<div class="row">
+	<nav class="navbar">
+		<ul class="nav navbar-nav">
+			<div class="col-xs-10 nav-information">
+				<li class="nav-item active">
+					<a class="nav-link text-uppercase" href="#">personas <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item text-uppercase">
+					<a class="nav-link" href="#">empresas</a>
+				</li>
+				<li class="nav-item info">
+					<a class="nav-link" href="#">Oficinas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Llámanos 6 50 1000 | 01 800 919918</a>
+				</li>
+				<li class="nav-item float-xs-right">
+					<a class="nav-link text-uppercase" href="#">hazte cliente</a>
+				</li>
+			</div>
+			<div class="col-xs-2 nav-customers">
+				<li class="nav-item active">
+					<a class="nav-link text-uppercase" href="#">área de clientes</a>
+				</li>
+			</div>
+		</ul>
+	</nav>
+</div>
+
+<div class="row logo-container">
+	<div class="text-uppercase bank-name">
+		banco pichincha
+	</div>
+	<form class="float-xs-right col-xs-3">
+		<input type="text" class="form-control" id="inputSuccess1" placeholder="¿como te podemos ayudar?">
+	</form>
+</div>
+
+<div class="row">
+	<div class="btn-group btn-section" role="group" aria-label="Basic example">
+		<button type="button" class="btn btn-secondary">ahorros e inversión</button>
+		<button type="button" class="btn btn-secondary">tarjetas de crédito</button>
+		<button type="button" class="btn btn-secondary">préstamos</button>
+		<button type="button" class="btn btn-secondary">servicios</button>
+		<button type="button" class="btn btn-secondary">Experiencias pichincha</button>
+	</div>
+</div>
+
+<div class="row">
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item"><a href="#">Pichincha</a></li>
+		<li class="breadcrumb-item"><a href="#">Préstamos</a></li>
+		<li class="breadcrumb-item active">Crédito educativo</li>
+	</ol>
+</div>
+
+<div class="row banner-main">
+	<div class="col-md-6 float-md-right">
+		<div class="banner-data">
+			<div class="banner-title">Crédito educativo</div>
+			<div class="banner-subtitle text-uppercase">Con agilidad y facilidad de nuestro crédito educativo tu estudio es posible</div>
+		</div>
+		<div class="banner-info">
+			Te acompañamos en la construcción de tus sueños y metas o en las de tus hijos con nuestro crédito educativo.
+		</div>
+		<button type="button" class="btn btn-lg btn-outline-secondary request-button">solicíta ya tu crédito educativo</button>
+	</div>
+</div>
+
+<div class="row">
+	<nav class="nav nav-inline nav-options text-md-center text-uppercase">
+		<a class="nav-link active" href="#">características</a>
+		<a class="nav-link" href="#">requisitos</a>
+	</nav>
+</div>
+
+<div class="row">
+	<div class="col-md-8 offset-md-2">
+		<div class="row credit-data">
+			<div class="col-md-8">
+				<ul class="credit-characteristics">
+					<li>Crédito rotativo hasta por el 100% de la matrícula.</li>
+					<li>Aprobación inmediata con tasas especiales</li>
+					<li>Desembolso para crédito nuevo en 24 horas y para renovación 4 horas a través de giros a las universidades conconvenios o con cheque</li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<div class="text-uppercase credit-purpose-title">Destino del crédito</div>
+				<ul class="credit-purpose-list">
+					<li>Pregrado</li>
+					<li>Posgrado</li>
+					<li>Educación continuada</li>
+					<li>Cursos de Inglés</li>
+					<li>Compra de computadores</li>
+				</ul>
 			</div>
 		</div>
-	</body>
+		<div class="row credit-items-container">
+			<div class="col-md-3 text-md-center">
+				<div class="text-uppercase credit-item-title">
+					para edades entre
+				</div>
+				<div class="credit-item-data">
+					18 a 75 años
+				</div>
+			</div>
+			<div class="col-md-3 text-md-center">
+				<div class="text-uppercase credit-item-title">
+					Monto minimo a fianciar
+				</div>
+				<div class="credit-item-data">
+					$300,000
+				</div>
+			</div>
+			<div class="col-md-3 text-md-center">
+				<div class="text-uppercase credit-item-title">
+					monto máximo a finnciar
+				</div>
+				<div class="credit-item-data">
+					$20'000.000
+				</div>
+			</div>
+			<div class="col-md-3 text-md-center">
+				<div class="text-uppercase credit-item-title">
+					plazo del crédito
+				</div>
+				<div class="credit-item-data">
+					De 1 a 60 meses
+				</div>
+			</div>
+		</div>
+		<div class="row credit-extra-data">
+			<div class="credit-extra-data-title">
+				Además con banco Pichincha también obtienes:
+			</div>
+
+			<ul class="credit-extra-data-list">
+				<li>Red de oficinas para trámites y pagos, incluyendo convenios con universidades o instituciones educativas.</li>
+				<li>Respaldo, asesoría y trayectoria del Banco Pichincha en créditos educativos.</li>
+				<li>Financiación garantizada para todo el tiempo que duren las carreras o planes de educación.</li>
+				<li>Pago del crédito a través de PSE con cuentas de otros bancos.</li>
+				<li>Pago del crédito desde nuestro portal transaccional.</li>
+			</ul>
+		</div>
+		<div class="row text-uppercase text-md-center credit-links">
+			<button type="button" class="btn btn-secondary btn-lg">Solícita ya tu crédito educativo</button>
+			<button type="button" class="btn btn-link btn-sm">o acercate ya a una de nuestras oficinas</button>
+		</div>
+	</div>
+</div>
+
+<div class="row other-products">
+	<div class="text-md-center other-products-title">
+		Otros productos que te pueden interesar
+	</div>
+	<div class="col-md-4 other-product-one">
+		<div class="float-md-right col-md-7">
+			<div class="other-product-title">Crédito</div>
+			<div class="other-product-subtitle">Vehículo</div>
+			<button type="button" class="btn btn-link btn-sm">Conoce más</button>
+		</div>
+	</div>
+	<div class="col-md-4 other-product-two">
+		<div class="float-md-right col-md-7">
+			<div class="other-product-title">Crédito</div>
+			<div class="other-product-subtitle">Libre inversión</div>
+			<button type="button" class="btn btn-link btn-sm">Conoce más</button>
+		</div>
+	</div>
+	<div class="col-md-4 other-product-three">
+		<div class="float-md-right col-md-7">
+			<div class="other-product-title">Cuenta</div>
+			<div class="other-product-subtitle">CDT 10 seguro</div>
+			<button type="button" class="btn btn-link btn-sm">Conoce más</button>
+		</div>
+	</div>
+</div>
+<div class="col-md-8 offset-md-2">
+	<div class="row">
+		<div class="col-md-5" style="border: yellowgreen solid thin;">
+			<div>
+				<div class="text-uppercase">red de</div>
+				<div> Oficinas</div>
+			</div>
+		</div>
+		<div class="col-md-4 text-md-center" style="border: yellowgreen solid thin;">
+			<div class="float-md-left">
+				<div class="text-uppercase">bogota</div>
+				<div>650 1000</div>
+			</div>
+			<div class="float-md-right">
+				<div class="text-uppercase">línea nacional</div>
+				<div>01 800 919 918</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			redes sociales
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6" style="font-size: 10px;">
+			<div class="col-md-7">
+				<div class="row">
+					<div>Para personas</div>
+					<ul class="float-md-left">
+						Ahorros
+						<li>Cuenta de ahorros</li>
+						<li>Cuenta de corriente</li>
+						<li>CDT</li>
+						<li>Nómina</li>
+					</ul>
+					<ul class="float-md-right">
+						Tarjetas de crédito
+						<li>Visa Clásica</li>
+						<li>Visa Gold</li>
+						<li>Visa Platino</li>
+						<li>Visa Signatue</li>
+						<li>Visa Infinnite</li>
+					</ul>
+					<ul class="float-md-left">
+						Prestamos
+						<li>Cuenta de ahorros</li>
+						<li>Cuenta de corriente</li>
+						<li>CDT</li>
+						<li>Nómina</li>
+					</ul>
+					<ul class="float-md-right">
+						Servicios
+						<li>Visa Clásica</li>
+						<li>Visa Gold</li>
+						<li>Visa Platino</li>
+						<li>Visa Signatue</li>
+						<li>Visa Infinnite</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div class="row">
+					<div>Para empresas</div>
+					<ul class="float-md-right">
+						Productos
+						<li>Soluciones de inversión</li>
+						<li>Soluciones de información</li>
+						<li>Soluciones de recaudo</li>
+						<li>Soluciones de pago</li>
+						<li>Soluciones de financiación</li>
+					</ul>
+					<ul class="float-md-right">
+						Herramientas
+						<li>Calendario tributario</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6" style="font-size: 10px;">
+			<div class="col-md-6">
+				<div class="row">
+					<div>Para empresas</div>
+					<ul class="float-md-right">
+						Productos
+						<li>Soluciones de inversión</li>
+						<li>Soluciones de información</li>
+						<li>Soluciones de recaudo</li>
+						<li>Soluciones de pago</li>
+						<li>Soluciones de financiación</li>
+					</ul>
+					<ul class="float-md-right">
+						Herramientas
+						<li>Calendario tributario</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div>Para empresas</div>
+					<ul class="float-md-right">
+						Productos
+						<li>Soluciones de inversión</li>
+						<li>Soluciones de información</li>
+						<li>Soluciones de recaudo</li>
+						<li>Soluciones de pago</li>
+						<li>Soluciones de financiación</li>
+					</ul>
+					<ul class="float-md-right">
+						Herramientas
+						<li>Calendario tributario</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
 </html>
