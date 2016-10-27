@@ -1,21 +1,31 @@
 {
-  "name": "cocktail-test",
+  "name": "cocktail test",
   "version": "1.0.0",
-  "description": "Cocktail test repository.",
+  "description": "cocktail test page",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rodwyn/cocktail-test.git"
+    "url": ""
   },
   "author": "Rodwyn Moreno",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rodwyn/cocktail-test/issues"
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.5",
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2",
+    "wiredep": "^4.0.0"
   },
-  "homepage": "https://github.com/rodwyn/cocktail-test#readme"
+  "devDependencies": {
+    "gulp-sass-lint": "^1.2.0",
+    "gulp-jscs": "^4.0.0"
+  }
 }
